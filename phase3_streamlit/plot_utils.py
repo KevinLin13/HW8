@@ -486,9 +486,9 @@ def create_3d_mapping_figure(
                 "args": [
                     lift_frame_names,
                     {
-                        "frame": {"duration": 70, "redraw": True},
+                        "frame": {"duration": 180, "redraw": True},
                         "transition": {
-                            "duration": 70,
+                            "duration": 180,
                             "easing": "cubic-in-out",
                         },
                         "mode": "immediate",

@@ -29,8 +29,8 @@ def create_auto_rotating_html(figure, animate_lift: bool) -> str:
             .filter(name => name.startsWith("lift-"));
         if (liftFrames.length) {
             Plotly.animate(graph, liftFrames, {
-                frame: {duration: 70, redraw: true},
-                transition: {duration: 70, easing: "cubic-in-out"},
+                frame: {duration: 180, redraw: true},
+                transition: {duration: 180, easing: "cubic-in-out"},
                 mode: "immediate"
             });
         }
