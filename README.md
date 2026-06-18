@@ -3,6 +3,10 @@
 這是一個供課堂教學使用的完整示範專案，從直覺動畫、真實模型到互動式網頁，
 逐步說明 SVM 如何處理無法以直線分隔的圓形資料。
 
+## Live Demo
+
+<https://svm0demo.streamlit.app/>
+
 ## 動畫展示
 
 <video
@@ -10,9 +14,6 @@
   controls
   width="100%">
 </video>
-
-若 GitHub 頁面未顯示內嵌播放器，可直接點選：
-[▶ 播放 SVMKernelTrick3D 高畫質影片](https://github.com/KevinLin13/HW8/blob/main/outputs/svm_kernel_trick_3d.mp4)
 
 ## 核心概念
 
