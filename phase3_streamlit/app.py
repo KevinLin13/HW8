@@ -112,10 +112,15 @@ video_path = (
     / "outputs"
     / "svm_kernel_trick_3d.mp4"
 )
-with st.expander("▶ 觀看 SVM Kernel Trick 3D 教學動畫"):
+with st.expander("▶ SVM Kernel Trick 3D 教學動畫", expanded=True):
     if video_path.exists():
-        st.video(str(video_path), format="video/mp4")
-        st.caption("1080p60 · 以 Manim 製作的概念教學動畫")
+        st.video(
+            str(video_path),
+            format="video/mp4",
+            autoplay=True,
+            muted=True,
+        )
+        st.caption("1080p60 · 自動靜音播放，可在播放器中開啟聲音")
     else:
         st.info("目前找不到動畫檔案，請確認 outputs/svm_kernel_trick_3d.mp4 已存在。")
 
