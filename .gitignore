@@ -1,6 +1,7 @@
 # Local Python installations and virtual environments
 .python313/
 .venv/
+.cloud-test-venv/
 
 # Python caches
 __pycache__/

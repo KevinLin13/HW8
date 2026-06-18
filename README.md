@@ -47,6 +47,13 @@ outputs/            產生的圖片與影片
 pip install -r requirements.txt
 ```
 
+`requirements.txt` 僅包含 Streamlit 網頁所需套件，確保可部署至
+Streamlit Community Cloud。若要在本機渲染 Phase 1 動畫，請另外安裝：
+
+```bash
+pip install -r requirements-manim.txt
+```
+
 Windows 若系統預設是 Python 3.14，請改用 Python 3.13 建立虛擬環境，
 避免 `moderngl` 缺少預編譯 wheel 而要求安裝 C++ 編譯器。本專案目前可直接使用：
 
