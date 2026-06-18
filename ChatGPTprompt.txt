@@ -1,0 +1,3 @@
+我想要做一個support vector machine展示，做3D展示 互動 ，比如說我在X Y軸上面有藍色的在中間紅色的點點在外面，然後我使用kernel function 選讓他能夠變成3D的這看到方向這個核心函數可能是一個Gaussian 或者是其他S v M能夠用的函數，然後我想要畫出這個hyper plane就是決策面我想要用的是Manim 套件 你有什麼建議？
+
+整理成一個完整3個phase的prompt in YAML so that I can tell antigravity agent to implement later

@@ -1,0 +1,22 @@
+# Local Python installations and virtual environments
+.python313/
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Tool and render caches
+.matplotlib/
+media/
+.streamlit/
+
+# Local test artifacts
+streamlit-test.out.log
+streamlit-test.err.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
